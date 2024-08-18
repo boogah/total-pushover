@@ -1,6 +1,6 @@
 === Total Pushover ===
-Contributors: Jason Cosper
-Donate link: https://littleroom.studio/
+Contributors: boogah
+Donate link: http://paypal.me/boogah
 Tags: pushover, notifications, email, wp_mail
 Requires at least: 6.0
 Tested up to: 6.6
