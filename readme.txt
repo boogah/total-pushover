@@ -9,13 +9,13 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Redirects all WordPress emails to the Pushover notification service.
+Redirects all outgoing site email to the Pushover notification service.
 
 == Description ==
 
 Total Pushover redirects all WordPress generated emails to the Pushover notification service. Pushover is an app that provides real-time notifications on your iOS or Android devices.
 
-This is especially handy when you don't want to worry about setting up either an SMTP or transactional mail plugin on your development sites.
+This plugin is especially handy when you don't want to worry about setting up either an SMTP or transactional mail plugin on a development sites.
 
 It is suggested that this plugin only be used on single-user WordPress installs. Everything that your site would usually mail out — including password reset requests for all site users — will be sent to the Pushover account that you've configured.
 
