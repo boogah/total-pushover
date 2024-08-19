@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Total Pushover
- * Version:           1.0
+ * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Jason Cosper
@@ -51,7 +51,7 @@ function wp_pushover_intercept_mail($atts)
         'token' => sanitize_text_field($pushover_token),
         'user' => sanitize_text_field($pushover_user),
         'title' => sanitize_text_field($atts['subject']),
-       'message' => wp_kses_post($atts['message']),
+        'message' => wp_kses_post($atts['message']),
     ];
 
     // Send the message to Pushover using the WordPress HTTP API

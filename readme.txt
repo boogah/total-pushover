@@ -5,7 +5,7 @@ Tags: pushover, notifications, email, wp_mail
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,12 +75,12 @@ I would prefer not to.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * Initial release of the plugin.
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.0.0 =
 Initial release. No upgrade is needed.
 
 == License ==
