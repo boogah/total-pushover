@@ -5,7 +5,7 @@ Tags: pushover, notifications, email, wp_mail
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,10 @@ To use this plugin, you need both a Pushover User Key and an API Token:
    define('PUSHOVER_USER_KEY', 'your-pushover-user-key');
    ```
 
+= How do I make sure I've configured my API Token and User Key correctly? =
+
+As of version 1.1.0, there's a link on the "Plugins -> Installed Plugins" page (when the plugin is active) that will send you a test message.
+
 = Would you consider adding Pushbullet support? =
 
 This plugin was created and — continues to be maintained — for totally selfish personal reasons. Since I don't use Pushbullet at all, I don't feel that I could adequately support that service.
@@ -75,13 +79,11 @@ I would prefer not to.
 
 == Changelog ==
 
+= 1.1.0 =
+* Added Test link to Plugins page so you could check that things are configured correctly.
+
 = 1.0.0 =
 * Initial release of the plugin.
-
-== Upgrade Notice ==
-
-= 1.0.0 =
-Initial release. No upgrade is needed.
 
 == License ==
 
