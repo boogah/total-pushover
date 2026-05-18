@@ -2,10 +2,10 @@
 Contributors: boogah
 Donate link: http://paypal.me/boogah
 Tags: pushover, notifications, email, wp_mail
-Requires at least: 6.0
-Tested up to: 6.6
-Requires PHP: 7.4
-Stable tag: 1.1.0
+Requires at least: 6.5
+Tested up to: 7.0
+Requires PHP: 8.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,14 @@ This plugin was created and — continues to be maintained — for totally selfi
 I would prefer not to.
 
 == Changelog ==
+
+= 1.2.0 =
+* Added nonce verification and capability check to the test message action to prevent CSRF.
+* Added HTTP status code validation when calling the Pushover API.
+* Added Text Domain header and textdomain to all translatable strings.
+* Used esc_html__() in all HTML output contexts.
+* Removed spurious ob_start() call.
+* Bumped minimum WordPress requirement to 6.5 and PHP requirement to 8.0.
 
 = 1.1.0 =
 * Added Test link to Plugins page so you could check that things are configured correctly.
